@@ -26,7 +26,7 @@ namespace Activity_2___Unit_Conversion
                 Output.Text = farenheit.ToString("0.000");
             } else
             {
-                Output.Text = "error";
+                MessageBox.Show("Input Error.");
             }
         }
     }
